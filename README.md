@@ -56,3 +56,12 @@ class Program {
     }
 }
 
+## Приклад розширення
+class MacButton : IButton { public void Paint() => Console.WriteLine("Mac Button"); }
+class MacCheckbox : ICheckbox { public void Paint() => Console.WriteLine("Mac Checkbox"); }
+
+class MacFactory : IGUIFactory {
+    public IButton CreateButton() => new MacButton();
+    public ICheckbox CreateCheckbox() => new MacCheckbox();
+}
+
