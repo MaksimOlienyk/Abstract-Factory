@@ -55,6 +55,7 @@ class Program {
         factory.CreateCheckbox().Paint();
     }
 }
+## 
 
 ## Приклад розширення
 class MacButton : IButton { public void Paint() => Console.WriteLine("Mac Button"); }
