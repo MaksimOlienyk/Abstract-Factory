@@ -55,7 +55,7 @@ class Program {
         factory.CreateCheckbox().Paint();
     }
 }
-## 
+## Програма не знає, які саме конкретні класи використовуються - вона працює через абстракції.
 
 ## Приклад розширення
 class MacButton : IButton { public void Paint() => Console.WriteLine("Mac Button"); }
