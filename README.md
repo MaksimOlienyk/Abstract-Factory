@@ -1,4 +1,4 @@
-# Abstract Factory — Патерн Проєктування
+# Abstract Factory - Патерн Проєктування
 
 Цей приклад демонструє шаблон **Abstract Factory** у мові C#.
 
